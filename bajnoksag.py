@@ -3,7 +3,7 @@ eredmeny = input("Eredménysorozat: ")
 gyozelem = 0
 dontetlen = 0
 vereseg = 0
-for betu in eredmeny
+for betu in eredmeny:
     if betu == "G":
         gyozelem = gyozelem + 1
     elif betu == "D":
