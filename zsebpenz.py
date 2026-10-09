@@ -12,7 +12,7 @@ for i in range(len(koltes)):
         if elso_elmaradas == 0:
             elso_elmaradas = i + 1
     napi.append(str(egyenleg))
-print("Maradék" + " ".join(napi))
+print("Maradék: " + " ".join(napi))
 
 if elmarad > 0:
     print(f"{elmarad} napon maradt el a vásárlás. Legelőször az {elso_elmaradas}-dik napon.")
