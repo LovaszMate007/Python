@@ -16,6 +16,6 @@ pont = gyozelem * 3 + dontetlen * 1
 print(f"A csapat {pont} pontot szerzett.")
 
 if vereseg == 0:
-    print("Nem volt vereég.")
+    print("Nem volt vereség.")
 else:
     print("Vereség volt.")
